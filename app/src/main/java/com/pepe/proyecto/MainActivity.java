@@ -305,6 +305,15 @@ public class MainActivity extends AppCompatActivity {
         return document;
     }
 
+
+
+    public void cargarBD(){
+        
+    }
+
+
+
+
     private void imprimeCategorias(){
         for (Categoria cat : categorias) {
             System.out.println("ID: " + cat.getId() + " SECCION: " + cat.getSeccion());

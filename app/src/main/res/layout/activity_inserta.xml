@@ -107,19 +107,19 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <RadioButton
-            android:id="@+id/radioButton"
+            android:id="@+id/radioAutoInsert"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Auto" />
 
         <RadioButton
-            android:id="@+id/radioButton2"
+            android:id="@+id/radioRefaccionInsert"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Refaccion" />
 
         <RadioButton
-            android:id="@+id/radioButton3"
+            android:id="@+id/radioSeguroInsert"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Seguro" />
