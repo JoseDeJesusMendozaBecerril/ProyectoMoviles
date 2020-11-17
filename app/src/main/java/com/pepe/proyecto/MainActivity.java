@@ -308,7 +308,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void cargarBD(){
-        
+        System.out.println("Antes de cargar bd");
     }
 
 
