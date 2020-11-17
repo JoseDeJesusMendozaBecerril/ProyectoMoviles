@@ -45,7 +45,6 @@ public class MainActivity extends AppCompatActivity {
     ArrayList<Marca> marcas;
     ArrayList<Tipo> tipos;
 
-    String prueba;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
