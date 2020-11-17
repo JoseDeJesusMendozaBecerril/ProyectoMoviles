@@ -36,9 +36,9 @@ public class MainActivity extends AppCompatActivity {
     Button btnviewEliminar;
     Button btnviewActualizar;
 
-    String archivoXMLCategorias;// = "https://blogpersonalpepe.000webhostapp.com/categorias.xml";
-    String archivoXMLMarcas;// = "https://blogpersonalpepe.000webhostapp.com/marcas.xml";
-    String archivoXMLTipos;// = "https://blogpersonalpepe.000webhostapp.com/tipos.xml";
+    String archivoXMLCategorias= "https://blogpersonalpepe.000webhostapp.com/categorias.xml";
+    String archivoXMLMarcas = "https://blogpersonalpepe.000webhostapp.com/marcas.xml";
+    String archivoXMLTipos = "https://blogpersonalpepe.000webhostapp.com/tipos.xml";
 
 
     ArrayList<Categoria> categorias;
@@ -54,13 +54,13 @@ public class MainActivity extends AppCompatActivity {
         addMethods();
 
         //PRUEBA
-        //downloadCatalogos();
-        //System.out.println("Categorias");
-        //imprimeCategorias();
-        //System.out.println("Marcas");
-        //imprimeMarcas();
-        //System.out.println("Tipos");
-        //imprimeTipos();
+        downloadCatalogos();
+        System.out.println("Categorias");
+        imprimeCategorias();
+        System.out.println("Marcas");
+        imprimeMarcas();
+        System.out.println("Tipos");
+        imprimeTipos();
     }
     public void initComponents(){
         this.btnviewInsertar = (Button) findViewById(R.id.btnViewInserta);
